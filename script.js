@@ -43,7 +43,7 @@
     const typed = new Typed('#element', {
       strings: [
         'Where am I?',
-        'Track my loctaion',
+        'Track my location',
         'Find me'
       ],
       typeSpeed: 80,
