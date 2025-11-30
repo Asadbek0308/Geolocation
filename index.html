@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-base-200 min-h-screen flex items-center justify-center">
+    
+    <div class="wrapper bg-base-100 shadow-xl rounded-2xl p-6 w-[90%] max-w-[700px] flex flex-col gap-6 items-center">
+        
+        <h1 id="element" class="text-3xl font-bold text-center"></h1>
+        
+        <button class="btn btn-primary rounded-xl w-full max-w-[250px]" onclick="getLocation()" id="findMe">
+            Find Me
+        </button>
+        
+        <div id="text-box" class="text-lg font-medium text-center"></div>
+        
+        <div id="text-frame" class="w-full rounded-xl overflow-hidden shadow-lg"></div>
+    </div>
+    
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
